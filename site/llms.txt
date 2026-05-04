@@ -1,0 +1,30 @@
+# Potluck Technologies
+
+> Potluck Technologies is a New York-based software development consulting firm founded by two former Google engineering and product leaders. We help early-stage tech companies build successful products and high-performing teams through fractional leadership, advisory, full-stack product builds, and coaching.
+
+## Pages
+
+- [Home](https://www.potlucktech.com/): Overview of services, founders, and positioning. Tagline: "Everyone brings something to the table."
+- [Who We Are](https://www.potlucktech.com/who-we-are): Founder bios and company background. Sha-Mayn Teh (former Google engineering lead, launched Google Translate, built 50-person eng org at TeachersPayTeachers, ICF-certified coach). Yu Chen (former Google product lead across Search, Maps, and connectivity, former Flatiron School product lead, MIT, angel investor).
+- [Fractional Leadership](https://www.potlucktech.com/fractional-leadership): Embedded fractional CTO and CPO services for early-stage startups. Strategy, team management, AI stack building, engineering and product roadmaps. Retainer-based engagements, typically 10–20 hours/week.
+- [Coaching](https://www.potlucktech.com/coaching): Executive and leadership coaching for individual contributors (junior through staff), engineering managers, senior leaders, founders, and PMs. Sha-Mayn Teh is ICF-certified (Associate Certified Coach) with a Level 1 Leadership & Performance Coaching certification from Brown University (2024).
+
+## About the Founders
+
+**Sha-Mayn Teh** — Co-Founder, Fractional CTO, Leadership Coach. 20+ years building and scaling products and engineering teams. Launched Google Translate. Co-founded Google's Beijing office. Patents in cross-language search and distributed ML. Singaporean, based in New York.
+
+**Yu Chen** — Co-Founder, Fractional CPO, Product Coach. 8 years at Google across Search, Maps, and Internet connectivity. Led product strategy at Flatiron School. MIT graduate. Angel investor. Judge, HBS New Venture Competition (2022–present). Based in New York.
+
+## Notable Clients
+
+Willow Finance, Libra Data, Bluearc.ai, Kriseles.
+
+## Contact
+
+- Website: https://www.potlucktech.com
+- Sha-Mayn Teh LinkedIn: https://www.linkedin.com/in/shamayn/
+- Yu Chen LinkedIn: https://www.linkedin.com/in/yuchenmit/
+
+## Disallow
+
+- /contact (contact form — do not index or crawl)
