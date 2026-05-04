@@ -26,8 +26,9 @@ site/            Static site assets (llms.txt, etc.)
 ## Setup
 
 1. Clone the repo
-2. Copy each skill's `CONFIG.example.md` to `CONFIG.md` and fill in values
-3. For Google Docs sync: run `/mcp` in Claude Code and authenticate Google Drive
+2. Run aeo-topic-research skill to generate new blog post ideas
+3. Run aeo-content-writer skill to generate a specific post (use blog post brief in reports/)
+4. Editing of blog post is in this Google Doc: https://docs.google.com/document/d/1AHZs4K0fBiDmIpasrmVg4TepJHRxauXcdHldNEvX-Zw/edit?tab=t.0
 
 ## Collaborators
 
