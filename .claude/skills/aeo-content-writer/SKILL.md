@@ -90,6 +90,21 @@ To ensure the content is picked up by AI search engines (Perplexity, ChatGPT, Go
 - **Question H2s:** Where natural, frame section headings as questions users actually search (e.g., "Will AI Replace Software Engineers?"). The paragraph immediately following must answer in the first 1–2 sentences — no preamble. Don't force it if the section topic doesn't map cleanly to a question.
 - **Schema Readiness:** `faqPairs` drive the `FAQPage` JSON-LD schema injected by the layout component — they are schema-only, not rendered on page. Write questions that match real search queries distinct from the H2s. Answers must be ≤2 sentences with a specific data point in each. Target 6–8 pairs.
 
+### Step 3b: Self-Evaluation Pass
+
+After completing the draft, run a self-evaluation before saving. Read the tone guide at `TONE_GUIDE_PATH` and check the draft against:
+
+1. **AEO formula** — quick answer block present, FAQ pairs written, at least one comparison table, question H2s throughout
+2. **Author assignment** — correct author for the topic (CTO/engineering → Sha-Mayn, product/coaching/AI → Yu Chen)
+3. **Tone checklist** — flag any instance of banned phrases, vague claims that could be specific, sections that don't lead with the answer, generic CTAs
+4. **Competitor differentiation** — does at least one section say something the top 3 cited competitors (amazingcto.com, gofractional.com, fractionus.com) don't?
+
+Output the evaluation as a brief flagged list before the draft. Format:
+- ✓ pass or ✗ [specific issue] for each criterion
+- If any ✗, fix before saving. Do not ask the user to fix — fix it yourself.
+
+---
+
 ### Step 4: Accessibility & Mobile
 Apply these explicitly — do not defer to the publish-checklist skill:
 - Expandable sections (career cards, accordions): `aria-expanded` on the toggle button.
