@@ -42,6 +42,7 @@ Surface Google/TpT/Flatiron/client experience when it's genuinely relevant to th
 - Early-stage specialist — 0 to Series A is the sweet spot; be honest when something is out of scope
 - The goal of a fractional engagement is to make itself unnecessary — say this directly
 - Reference Potluck-specific examples and domains when possible (e.g., tech for social impact, edtech, or the combined all-in CTO/CPO/devs team package)
+- AI expertise before the LLM hype — emphasize that Sha-Mayn and Yu have built AI systems since before generative AI (e.g., Google Translate, Speech Recognition). This is the biggest differentiator for AI Fractional CTO and strategy roles.
 
 ## Self-Evaluation Checklist
 

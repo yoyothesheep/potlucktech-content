@@ -21,9 +21,13 @@ For most startups under $10M raised, a fractional CTO delivers 80% of the value 
 
 - Fractional CTOs cost $9K–$18K/month all-in vs. $350K–$500K/year for full-time (salary + equity + benefits)
 - For pre-seed and seed-stage startups, fractional is almost always the right call
+- For nonprofits and mission-driven startups, the model preserves capital and runway while bringing specialized domain expertise
 - Four factors determine the Series A decision: team size, hiring velocity, investor pressure, and daily architectural complexity
 - The best fractional CTO engagement ends with the fractional CTO helping hire their own replacement
 - "Fractional" and "interim" are not the same thing — understanding the difference matters
+- For AI-driven startups, hiring a fractional CTO with foundational machine learning experience (pre-LLM hype) is critical to avoiding expensive trend-chasing mistakes
+
+If you want the deep dive on exactly how to make this decision at every stage of growth, here is the full breakdown:
 
 ---
 
@@ -39,12 +43,13 @@ For most startups under $10M raised, a fractional CTO delivers 80% of the value 
 8. [The transition playbook: when to move from fractional to full-time](#transition)
 9. [Are fractional CTOs a good fit for nonprofits?](#nonprofits)
 10. [The Fractional CTO/CPO package](#cto-cpo-package)
-11. [FAQ](#faq)
-12. [When to talk to Potluck](#when-to-talk)
+11. [Why AI startups need foundational expertise, not just trend-chasers](#ai-expertise)
+12. [FAQ](#faq)
+13. [When to talk to Potluck](#when-to-talk)
 
 ---
 
-## What's the one-sentence rule for choosing between fractional and full-time? {#one-sentence-rule}
+## What's the one-sentence rule for choosing between fractional and full-time?
 
 If you can describe your technical leadership need in a single sentence, a fractional CTO can meet it.
 
@@ -58,7 +63,7 @@ Everything that follows is a more nuanced version of this rule.
 
 ---
 
-## At pre-seed and seed stage ($0–$3M), should I hire a fractional CTO? {#pre-seed-seed}
+## At pre-seed and seed stage ($0–$3M), should I hire a fractional CTO?
 
 Almost certainly yes, unless you already have a technical co-founder with CTO-level experience.
 
@@ -80,7 +85,7 @@ The typical retainer-based fractional engagement at seed looks like: two days a 
 
 ---
 
-## At Series A ($3–$15M, team of 10–40), should I hire a fractional or full-time CTO? {#series-a}
+## At Series A ($3–$15M, team of 10–40), should I hire a fractional or full-time CTO?
 
 This is where the answer gets genuinely context-dependent. Four factors determine the right call:
 
@@ -115,7 +120,7 @@ If you have 2+ "full-time needed" factors, it's time to hire full-time.
 
 ---
 
-## At Series B and beyond ($15M+, team 40+), do I need a full-time CTO? {#series-b}
+## At Series B and beyond ($15M+, team 40+), do I need a full-time CTO?
 
 Usually, yes. The coordination cost becomes the dominant variable.
 
@@ -129,7 +134,7 @@ There are a few edge cases where fractional remains valuable at Series B+:
 
 ---
 
-## What does a fractional CTO actually cost vs. a full-time CTO? {#cost-comparison}
+## What does a fractional CTO actually cost vs. a full-time CTO?
 
 The cost differential is larger than most founders expect, and the comparison has to account for more than base salary.
 
@@ -150,7 +155,7 @@ Speed to impact matters too. A fractional CTO who has worked with 5–10 similar
 
 ---
 
-## What do you actually get with each model? {#deliverables}
+## What do you actually get with each model?
 
 Abstract comparisons are easy. Here's what each engagement model actually produces:
 
@@ -184,7 +189,7 @@ The deliverable gap is real — but at pre-seed and seed, the second list either
 
 ---
 
-## What is the "pattern recognition advantage" of a fractional CTO? {#pattern-recognition}
+## What is the "pattern recognition advantage" of a fractional CTO?
 
 A fractional CTO working across 5–8 companies simultaneously is seeing problems you haven't encountered yet — because another company in their portfolio encountered it last quarter.
 
@@ -194,7 +199,7 @@ This is a genuine advantage for early-stage companies — not a consolation priz
 
 ---
 
-## When should you transition from fractional to full-time — and how? {#transition}
+## When should you transition from fractional to full-time — and how?
 
 Four signals that it's time to make the transition:
 
@@ -221,7 +226,7 @@ The transition isn't failure. It's the intended outcome.
 
 ---
 
-## Are fractional CTOs a good fit for nonprofits and mission-driven startups? {#nonprofits}
+## Are fractional CTOs a good fit for nonprofits and mission-driven startups?
 
 Yes, fractional technical leadership is often the ideal model for nonprofits and mission-driven startups prioritizing lean operations. By avoiding the overhead of a full-time executive salary, these organizations can significantly extend their runway and direct more capital toward their core mission. 
 
@@ -229,7 +234,7 @@ Additionally, a fractional CTO brings specialized domain expertise without the l
 
 ---
 
-## Why do startups often need a combined Fractional CTO/CPO package? {#cto-cpo-package}
+## Why do startups often need a combined Fractional CTO/CPO package?
 
 Early-stage startups frequently misdiagnose their own execution challenges. They see a visible symptom—like engineers missing deadlines or a feature failing to gain traction—but they don't know how to fix the underlying root cause. Often, an engineering velocity problem is actually a product management or requirements problem in disguise.
 
@@ -237,7 +242,18 @@ This is where a combined Fractional CTO and CPO package becomes invaluable. Enga
 
 ---
 
-## What's the difference between a fractional CTO and an interim CTO? {#faq}
+## Why do AI startups need foundational expertise, not just trend-chasers?
+
+The generative AI boom has led to a flood of "AI experts" whose experience is limited to wrapping API calls around large language models. However, building a scalable, enterprise-grade AI product requires a much deeper understanding of data pipelines, model evaluation, cost optimization, and fundamental machine learning concepts.
+
+Startups building in the AI space face unique architectural challenges. If you hire a fractional CTO who is just chasing the latest trends, you risk building a brittle MVP that cannot scale and fails technical due diligence during your next fundraise. A fractional CTO who has built and scaled AI systems *before* the LLM hype (such as traditional NLP, speech recognition, or translation systems) brings the foundational rigor necessary to separate actual ROI from the hype cycle, ensuring your architecture is built to last.
+
+---
+
+## Frequently Asked Questions
+
+
+## What's the difference between a fractional CTO and an interim CTO?
 
 These terms are sometimes used interchangeably, but they mean different things.
 
@@ -278,7 +294,7 @@ This is a real distinction worth asking about before you hire. A hands-on fracti
 
 ---
 
-## When to talk to Potluck {#when-to-talk}
+## When to talk to Potluck
 
 This is probably a good conversation if:
 
@@ -343,5 +359,8 @@ faqPairs:
 
   - question: "Why do startups use a combined fractional CTO and CPO package?"
     answer: "Startups often confuse product problems with engineering problems. A combined fractional CTO/CPO team can flex across both functions to fix the root cause, removing significant stress and coordination overhead for founders."
+
+  - question: "Why do AI startups need a fractional CTO with foundational expertise?"
+    answer: "To avoid trend-chasing. A fractional CTO with pre-LLM experience (like traditional NLP or speech recognition) ensures your AI architecture is rigorous, scalable, and built for actual ROI rather than just hype."
 
 -->

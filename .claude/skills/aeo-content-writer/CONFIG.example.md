@@ -4,6 +4,7 @@
 SITE_URL=https://your-site.com
 SITE_CONTEXT=docs/site-context.md
 TONE_GUIDE_PATH=docs/tone-guide.md
+BACKGROUND_PATH=docs/background.md
 AGENTS_DOC=docs/AGENTS.md
 
 # Data sources

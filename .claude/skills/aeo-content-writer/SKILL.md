@@ -49,12 +49,13 @@ If any of these are missing from your plan, add them before writing.
 
 ### Step 1: Information Gathering
 Before writing a single word, gather the necessary data:
-1. **Read CONFIG.md:** Load `TONE_GUIDE_PATH`, `SITE_CONTEXT`, `AGENTS_DOC`, `DATA_SOURCES`, `SITE_REPO`, `DATA_REPO`, `BLOG_COMPONENT_DIR`, and `BLOG_ROUTE_DIR` from `.claude/skills/aeo-content-writer/CONFIG.md`.
+1. **Read CONFIG.md:** Load `TONE_GUIDE_PATH`, `BACKGROUND_PATH`, `SITE_CONTEXT`, `AGENTS_DOC`, `DATA_SOURCES`, `SITE_REPO`, `DATA_REPO`, `BLOG_COMPONENT_DIR`, and `BLOG_ROUTE_DIR` from `.claude/skills/aeo-content-writer/CONFIG.md`.
 2. **Read the Tone Guide:** Review the file at `TONE_GUIDE_PATH`.
-3. **Read Site Context:** Review the file at `SITE_CONTEXT` for platform background, data sources, and what this skill is responsible for.
-4. **Read Agents Doc:** Review the file at `AGENTS_DOC` for agent coordination context.
-5. **Gather Data:** Pull from `DATA_REPO` and authoritative external sources listed in `DATA_SOURCES`. Find real numbers for any salary, job growth, or openings claims.
-4. **Find 3 High-Quality Sources:** Government data, peer-reviewed labor economics, major research reports (McKinsey, WEF). Avoid Gartner/IDC/MarketsandMarkets.
+3. **Read Firm Background (Conditional):** Read the file at `BACKGROUND_PATH` **only** if the topic requires a "Why Potluck" section, explicit case studies, or credibility signals (like AI CTO expertise). Do not let this bleed into general informational content.
+4. **Read Site Context:** Review the file at `SITE_CONTEXT` for platform background, data sources, and what this skill is responsible for.
+5. **Read Agents Doc:** Review the file at `AGENTS_DOC` for agent coordination context.
+6. **Gather Data:** Pull from `DATA_REPO` and authoritative external sources listed in `DATA_SOURCES`. Find real numbers for any salary, job growth, or openings claims.
+7. **Find 3 High-Quality Sources:** Government data, peer-reviewed labor economics, major research reports (McKinsey, WEF). Avoid Gartner/IDC/MarketsandMarkets.
 
 ### Step 2: Blog Post Format
 Read CLAUDE.md before writing any files — it contains file paths, component names, route boilerplate, slug format, POSTS array fields, thumbnail spec, and sitemap format.
