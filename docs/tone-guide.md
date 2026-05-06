@@ -41,6 +41,7 @@ Surface Google/TpT/Flatiron/client experience when it's genuinely relevant to th
 - Two female ex-Googlers — relevant context, not a marketing badge
 - Early-stage specialist — 0 to Series A is the sweet spot; be honest when something is out of scope
 - The goal of a fractional engagement is to make itself unnecessary — say this directly
+- Reference Potluck-specific examples and domains when possible (e.g., tech for social impact, edtech, or the combined all-in CTO/CPO/devs team package)
 
 ## Self-Evaluation Checklist
 

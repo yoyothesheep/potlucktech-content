@@ -37,8 +37,10 @@ For most startups under $10M raised, a fractional CTO delivers 80% of the value 
 6. [What you actually get with each model](#deliverables)
 7. [The pattern recognition advantage](#pattern-recognition)
 8. [The transition playbook: when to move from fractional to full-time](#transition)
-9. [FAQ](#faq)
-10. [When to talk to Potluck](#when-to-talk)
+9. [Are fractional CTOs a good fit for nonprofits?](#nonprofits)
+10. [The Fractional CTO/CPO package](#cto-cpo-package)
+11. [FAQ](#faq)
+12. [When to talk to Potluck](#when-to-talk)
 
 ---
 
@@ -219,6 +221,22 @@ The transition isn't failure. It's the intended outcome.
 
 ---
 
+## Are fractional CTOs a good fit for nonprofits and mission-driven startups? {#nonprofits}
+
+Yes, fractional technical leadership is often the ideal model for nonprofits and mission-driven startups prioritizing lean operations. By avoiding the overhead of a full-time executive salary, these organizations can significantly extend their runway and direct more capital toward their core mission. 
+
+Additionally, a fractional CTO brings specialized domain expertise without the long-term commitment. Mission-driven organizations often have unique funding constraints, grant-based reporting requirements, and stakeholder dynamics. A fractional leader who has navigated these specific constraints can make immediate, high-leverage architectural decisions—ensuring the tech stack remains cost-effective and scalable—without requiring months to ramp up.
+
+---
+
+## Why do startups often need a combined Fractional CTO/CPO package? {#cto-cpo-package}
+
+Early-stage startups frequently misdiagnose their own execution challenges. They see a visible symptom—like engineers missing deadlines or a feature failing to gain traction—but they don't know how to fix the underlying root cause. Often, an engineering velocity problem is actually a product management or requirements problem in disguise.
+
+This is where a combined Fractional CTO and CPO package becomes invaluable. Engaging a unified team that can flex across both product and engineering functions provides a massive diagnostic advantage. Instead of a standalone CTO treating an engineering symptom while ignoring the product root cause, a cross-functional leadership team aligns the product roadmap directly with technical reality. This approach ensures you are building the right thing (Product) the right way (Engineering), removing a significant amount of stress and coordination overhead for the founding team.
+
+---
+
 ## What's the difference between a fractional CTO and an interim CTO? {#faq}
 
 These terms are sometimes used interchangeably, but they mean different things.
@@ -249,6 +267,10 @@ Three signals:
 3. Architectural decisions have a documented owner and a clear rationale
 
 If you've been in an engagement for 90 days and none of these have improved, the engagement isn't working — regardless of how competent the individual is.
+
+**Is a fractional CTO just a part-time engineer?**
+
+No. Many startups make the mistake of thinking a fractional CTO is just a senior engineer working 20 hours a week to write code. While some fractional CTOs are "hands-on," it is critical to distinguish between individual contributors (ICs) and technical leaders. The primary value of a fractional CTO is leadership—setting architecture, translating product requirements into technical roadmaps, vetting engineering hires, and managing investor diligence—not just shipping features faster.
 
 **What's the difference between hands-on vs. strategic fractional CTO work?**
 
@@ -310,7 +332,16 @@ faqPairs:
   - question: "At Series A, should I hire a fractional or full-time CTO?"
     answer: "It depends on four factors: team size (under 15 = fractional), hiring velocity (under 1/month = fractional), investor expectations, and how often architectural decisions are needed daily. Two or more full-time signals means it's time to hire full-time."
 
+  - question: "Is a fractional CTO just a part-time engineer?"
+    answer: "No. While some are hands-on, a fractional CTO is a technical leader, not an individual contributor (IC). Their primary value is in setting architecture, vetting hires, and aligning the technical roadmap, not just writing code."
+
   - question: "What does a fractional CTO actually do day-to-day?"
     answer: "A fractional CTO typically handles architecture reviews, engineering hiring panels, investor technical prep, roadmap input, and selective team 1:1s — all within a 10–20 hour weekly retainer. They do not own full people management chains or daily incident response at the same level as a full-time CTO."
+
+  - question: "Are fractional CTOs a good fit for nonprofits and mission-driven startups?"
+    answer: "Yes, fractional CTOs allow nonprofits to stay lean and extend their runway without the overhead of a full-time executive salary. They also bring specialized domain expertise to navigate unique funding and reporting constraints."
+
+  - question: "Why do startups use a combined fractional CTO and CPO package?"
+    answer: "Startups often confuse product problems with engineering problems. A combined fractional CTO/CPO team can flex across both functions to fix the root cause, removing significant stress and coordination overhead for founders."
 
 -->
