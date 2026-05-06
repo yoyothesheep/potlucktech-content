@@ -17,6 +17,10 @@ For most startups under $10M raised, a fractional CTO delivers 80% of the value 
 
 ---
 
+Having built and led a 50-person engineering organization at TeachersPayTeachers, and now working as a fractional CTO for early-stage startups, I've sat on both sides of this table. Founders constantly ask me when they should hire a full-time CTO. The truth is, most pull the trigger too early.
+
+---
+
 ## Key Takeaways
 
 - Fractional CTOs cost $9K–$18K/month all-in vs. $350K–$500K/year for full-time (salary + equity + benefits)
@@ -44,8 +48,9 @@ If you want the deep dive on exactly how to make this decision at every stage of
 9. [Are fractional CTOs a good fit for nonprofits?](#nonprofits)
 10. [The Fractional CTO/CPO package](#cto-cpo-package)
 11. [Why AI startups need foundational expertise, not just trend-chasers](#ai-expertise)
-12. [FAQ](#faq)
-13. [When to talk to Potluck](#when-to-talk)
+12. [Conclusion: The Goal is Obsolescence](#conclusion-the-goal-is-obsolescence)
+13. [FAQ](#faq)
+14. [When to talk to Potluck](#when-to-talk)
 
 ---
 
@@ -193,7 +198,7 @@ The deliverable gap is real — but at pre-seed and seed, the second list either
 
 A fractional CTO working across 5–8 companies simultaneously is seeing problems you haven't encountered yet — because another company in their portfolio encountered it last quarter.
 
-When your seed-stage startup debates whether to build your own authentication system or use an off-the-shelf solution, a fractional CTO who has watched three other companies make that decision (and live with the consequences) can answer in 20 minutes. A full-time CTO hired from a large company has deep expertise in one context. A fractional CTO has worked through a range of seed-stage and Series A situations in the last 12–18 months.
+When we embed with a new client at Potluck, we often solve architectural bottlenecks in days that an isolated founding engineer might struggle with for months. We don't have to guess; we just recognize the pattern and say, "We solved this exact data pipeline issue at another Series A company two months ago," and implement the proven solution.
 
 This is a genuine advantage for early-stage companies — not a consolation prize for not being able to afford full-time. The tradeoff is depth vs. breadth. A full-time CTO invests deeply in understanding one company's codebase, culture, and history over years. A fractional CTO brings cross-portfolio pattern recognition at the cost of that depth. At seed, breadth wins. At Series B, depth wins. Series A is the contested ground in between.
 
@@ -236,9 +241,9 @@ Additionally, a fractional CTO brings specialized domain expertise without the l
 
 ## Why do startups often need a combined Fractional CTO/CPO package?
 
-Early-stage startups frequently misdiagnose their own execution challenges. They see a visible symptom—like engineers missing deadlines or a feature failing to gain traction—but they don't know how to fix the underlying root cause. Often, an engineering velocity problem is actually a product management or requirements problem in disguise.
+Yu and I frequently see early-stage startups misdiagnose their own execution challenges. A founder will bring me in to fix an engineering velocity issue—engineers missing deadlines or shipping buggy code. But when Yu audits the product side, we almost always realize it's actually a product management or requirements problem in disguise.
 
-This is where a combined Fractional CTO and CPO package becomes invaluable. Engaging a unified team that can flex across both product and engineering functions provides a massive diagnostic advantage. Instead of a standalone CTO treating an engineering symptom while ignoring the product root cause, a cross-functional leadership team aligns the product roadmap directly with technical reality. This approach ensures you are building the right thing (Product) the right way (Engineering), removing a significant amount of stress and coordination overhead for the founding team.
+This is why we often embed as a combined Fractional CTO and CPO team. Engaging a unified team that can flex across both functions provides a massive diagnostic advantage. Instead of me just treating the engineering symptom, our cross-functional approach aligns the product roadmap directly with technical reality. We ensure you are building the right thing (Product) the right way (Engineering), removing a massive amount of stress and coordination overhead for the founding team.
 
 ---
 
@@ -246,7 +251,13 @@ This is where a combined Fractional CTO and CPO package becomes invaluable. Enga
 
 The generative AI boom has led to a flood of "AI experts" whose experience is limited to wrapping API calls around large language models. However, building a scalable, enterprise-grade AI product requires a much deeper understanding of data pipelines, model evaluation, cost optimization, and fundamental machine learning concepts.
 
-Startups building in the AI space face unique architectural challenges. If you hire a fractional CTO who is just chasing the latest trends, you risk building a brittle MVP that cannot scale and fails technical due diligence during your next fundraise. A fractional CTO who has built and scaled AI systems *before* the LLM hype (such as traditional NLP, speech recognition, or translation systems) brings the foundational rigor necessary to separate actual ROI from the hype cycle, ensuring your architecture is built to last.
+Startups building in the AI space face unique architectural challenges. If you hire a fractional leader who is just chasing the latest trends, you risk building a brittle MVP that fails technical due diligence during your next fundraise. Because Yu and I built and scaled massive AI systems at Google (like Speech Recognition and Google Translate) *long before* the generative AI hype, we bring the foundational rigor necessary to separate actual ROI from the hype cycle, ensuring your architecture is built to last.
+
+---
+
+## Conclusion: The Goal is Obsolescence
+
+The ultimate goal of a great fractional CTO is to make themselves unnecessary. When we embed with your team, our objective isn't to rack up billable hours indefinitely. It's to build a scalable foundation, hire the right permanent engineers, establish a healthy engineering culture, and eventually hand the keys over to a full-time technical leader when you're ready to scale without us.
 
 ---
 
