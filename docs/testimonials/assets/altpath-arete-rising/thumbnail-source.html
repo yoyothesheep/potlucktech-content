@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>altPath x Potluck Tech Thumbnail</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 1800px;
+      height: 1000px;
+      overflow: hidden;
+      background: #f7f4ef;
+    }
+    body {
+      font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+      color: #15111f;
+    }
+    .canvas {
+      position: relative;
+      width: 1800px;
+      height: 1000px;
+      overflow: hidden;
+      padding: 92px 92px 86px;
+      background:
+        radial-gradient(circle at 16% 20%, rgba(209, 185, 255, 0.82) 0, rgba(209, 185, 255, 0.44) 24%, rgba(209, 185, 255, 0) 48%),
+        radial-gradient(circle at 82% 34%, rgba(182, 238, 224, 0.82) 0, rgba(182, 238, 224, 0.48) 29%, rgba(182, 238, 224, 0) 56%),
+        radial-gradient(circle at 54% 84%, rgba(244, 232, 210, 0.78) 0, rgba(244, 232, 210, 0.38) 31%, rgba(244, 232, 210, 0) 58%),
+        linear-gradient(115deg, #f5edff 0%, #f8f4ef 48%, #eefdf8 100%);
+    }
+    .canvas::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image: radial-gradient(rgba(35, 26, 58, 0.08) 0.75px, transparent 0.75px);
+      background-size: 18px 18px;
+      opacity: 0.18;
+      mix-blend-mode: multiply;
+    }
+    .chevron-field {
+      position: absolute;
+      right: -140px;
+      top: 44px;
+      width: 1080px;
+      height: 650px;
+      z-index: 1;
+      opacity: 0.42;
+      filter: blur(1.6px);
+      transform: rotate(0deg);
+    }
+    .chevron-field svg {
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+      filter: drop-shadow(0 30px 70px rgba(87, 43, 190, 0.10));
+    }
+    .chev-outline {
+      fill: rgba(255, 255, 255, 0.08);
+      stroke: #5c2dc8;
+      stroke-width: 10;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .chev-outline.c1 { opacity: 0.26; }
+    .chev-outline.c2 { opacity: 0.38; }
+    .chev-outline.c3 { opacity: 0.52; }
+    .chev-outline.c4 { opacity: 0.68; }
+
+    .content {
+      position: absolute;
+      z-index: 3;
+      left: 92px;
+      right: 92px;
+      top: 47%;
+      transform: translateY(-50%);
+      max-width: 1440px;
+    }
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 72px;
+      font-size: 34px;
+      line-height: 1;
+      font-weight: 850;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(21,17,31,0.66);
+    }
+    .eyebrow::before {
+      content: "";
+      width: 118px;
+      height: 5px;
+      border-radius: 999px;
+      background: #5c2dc8;
+      display: block;
+    }
+    h1 {
+      margin: 0;
+      max-width: 1380px;
+      font-size: 148px;
+      line-height: 0.88;
+      letter-spacing: -0.066em;
+      font-weight: 950;
+      color: #120d23;
+    }
+    .x {
+      color: #7a32e6;
+      letter-spacing: -0.09em;
+      padding: 0 0.03em;
+    }
+    .subtitle {
+      margin-top: 48px;
+      max-width: 1080px;
+      font-size: 64px;
+      line-height: 1.16;
+      letter-spacing: -0.036em;
+      font-weight: 760;
+      color: rgba(21,17,31,0.82);
+    }
+    .subtitle .purple { color: #7a32e6; }
+    .stats {
+      position: absolute;
+      z-index: 4;
+      left: 92px;
+      right: 92px;
+      bottom: 96px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 28px;
+    }
+    .stat-card {
+      min-height: 164px;
+      border-radius: 28px;
+      padding: 31px 34px 28px;
+      background: rgba(255,255,255,0.78);
+      border: 1px solid rgba(21,17,31,0.10);
+      box-shadow: 0 22px 52px rgba(35, 25, 65, 0.10);
+      backdrop-filter: blur(18px);
+    }
+    .stat-value {
+      font-size: 63px;
+      line-height: 0.95;
+      letter-spacing: -0.065em;
+      font-weight: 950;
+      color: #120d23;
+      white-space: nowrap;
+    }
+    .stat-value span {
+      color: rgba(21,17,31,0.42);
+      margin: 0 0.08em;
+    }
+    .stat-label {
+      margin-top: 14px;
+      font-size: 24px;
+      line-height: 1.24;
+      letter-spacing: -0.02em;
+      color: rgba(21,17,31,0.66);
+      font-weight: 520;
+    }
+  </style>
+</head>
+<body>
+  <main class="canvas" role="img" aria-label="Case study thumbnail for altPath x Potluck Tech with product outcome results">
+    <div class="chevron-field" aria-hidden="true">
+      <svg viewBox="0 0 1080 650" role="presentation" focusable="false">
+        <path class="chev-outline c1" d="M 20 52 H 340 Q 370 52 390 75 L 610 325 L 390 575 Q 370 598 340 598 H 20 L 250 325 Z" />
+        <path class="chev-outline c2" d="M 160 52 H 480 Q 510 52 530 75 L 750 325 L 530 575 Q 510 598 480 598 H 160 L 390 325 Z" />
+        <path class="chev-outline c3" d="M 300 52 H 620 Q 650 52 670 75 L 890 325 L 670 575 Q 650 598 620 598 H 300 L 530 325 Z" />
+        <path class="chev-outline c4" d="M 440 52 H 760 Q 790 52 810 75 L 1030 325 L 810 575 Q 790 598 760 598 H 440 L 670 325 Z" />
+      </svg>
+    </div>
+
+    <section class="content">
+      <div class="eyebrow">Case Study</div>
+      <h1>altPath <span class="x">×</span> Potluck Tech</h1>
+      <p class="subtitle"><span class="purple">AI-Powered Career Platform</span></p>
+    </section>
+
+    <section class="stats" aria-label="Outcome stats">
+      <div class="stat-card">
+        <div class="stat-value">99% <span>→</span> 35%</div>
+        <div class="stat-label">Bounce rate</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">10% <span>→</span> 75%</div>
+        <div class="stat-label">Accounts with a saved career</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">8×</div>
+        <div class="stat-label">Engagement vs. peer median</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
