@@ -24,10 +24,10 @@
       overflow: hidden;
       padding: 92px 92px 86px;
       background:
-        radial-gradient(circle at 16% 20%, rgba(209, 185, 255, 0.82) 0, rgba(209, 185, 255, 0.44) 24%, rgba(209, 185, 255, 0) 48%),
-        radial-gradient(circle at 82% 34%, rgba(182, 238, 224, 0.82) 0, rgba(182, 238, 224, 0.48) 29%, rgba(182, 238, 224, 0) 56%),
-        radial-gradient(circle at 54% 84%, rgba(244, 232, 210, 0.78) 0, rgba(244, 232, 210, 0.38) 31%, rgba(244, 232, 210, 0) 58%),
-        linear-gradient(115deg, #f5edff 0%, #f8f4ef 48%, #eefdf8 100%);
+        radial-gradient(ellipse 52% 78% at 8% 24%, rgba(210, 184, 255, 0.72) 0, rgba(210, 184, 255, 0.38) 38%, rgba(210, 184, 255, 0) 72%),
+        radial-gradient(ellipse 58% 68% at 92% 62%, rgba(182, 238, 224, 0.76) 0, rgba(182, 238, 224, 0.42) 42%, rgba(182, 238, 224, 0) 76%),
+        radial-gradient(ellipse 46% 56% at 52% 78%, rgba(244, 232, 210, 0.50) 0, rgba(244, 232, 210, 0.22) 40%, rgba(244, 232, 210, 0) 74%),
+        linear-gradient(115deg, #f3ebff 0%, #f8f4ef 50%, #edfdf7 100%);
     }
     .canvas::after {
       content: "";
@@ -41,13 +41,13 @@
     }
     .chevron-field {
       position: absolute;
-      right: -140px;
-      top: 44px;
-      width: 1080px;
-      height: 650px;
+      right: -72px;
+      top: 118px;
+      width: 880px;
+      height: 360px;
       z-index: 1;
-      opacity: 0.42;
-      filter: blur(1.6px);
+      opacity: 0.40;
+      filter: blur(1.25px);
       transform: rotate(0deg);
     }
     .chevron-field svg {
@@ -57,24 +57,24 @@
       filter: drop-shadow(0 30px 70px rgba(87, 43, 190, 0.10));
     }
     .chev-outline {
-      fill: rgba(255, 255, 255, 0.08);
+      fill: none;
       stroke: #5c2dc8;
-      stroke-width: 10;
+      stroke-width: 8;
       stroke-linejoin: round;
       stroke-linecap: round;
       vector-effect: non-scaling-stroke;
     }
-    .chev-outline.c1 { opacity: 0.26; }
-    .chev-outline.c2 { opacity: 0.38; }
-    .chev-outline.c3 { opacity: 0.52; }
-    .chev-outline.c4 { opacity: 0.68; }
+    .chev-outline.c1 { opacity: 0.24; }
+    .chev-outline.c2 { opacity: 0.36; }
+    .chev-outline.c3 { opacity: 0.50; }
+    .chev-outline.c4 { opacity: 0.64; }
 
     .content {
       position: absolute;
       z-index: 3;
       left: 92px;
       right: 92px;
-      top: 47%;
+      top: 46.5%;
       transform: translateY(-50%);
       max-width: 1440px;
     }
@@ -82,7 +82,7 @@
       display: flex;
       align-items: center;
       gap: 32px;
-      margin-bottom: 72px;
+      margin-bottom: 96px;
       font-size: 34px;
       line-height: 1;
       font-weight: 850;
@@ -113,7 +113,7 @@
       padding: 0 0.03em;
     }
     .subtitle {
-      margin-top: 48px;
+      margin-top: 66px;
       max-width: 1080px;
       font-size: 64px;
       line-height: 1.16;
@@ -166,11 +166,11 @@
 <body>
   <main class="canvas" role="img" aria-label="Case study thumbnail for altPath x Potluck Tech with product outcome results">
     <div class="chevron-field" aria-hidden="true">
-      <svg viewBox="0 0 1080 650" role="presentation" focusable="false">
-        <path class="chev-outline c1" d="M 20 52 H 340 Q 370 52 390 75 L 610 325 L 390 575 Q 370 598 340 598 H 20 L 250 325 Z" />
-        <path class="chev-outline c2" d="M 160 52 H 480 Q 510 52 530 75 L 750 325 L 530 575 Q 510 598 480 598 H 160 L 390 325 Z" />
-        <path class="chev-outline c3" d="M 300 52 H 620 Q 650 52 670 75 L 890 325 L 670 575 Q 650 598 620 598 H 300 L 530 325 Z" />
-        <path class="chev-outline c4" d="M 440 52 H 760 Q 790 52 810 75 L 1030 325 L 810 575 Q 790 598 760 598 H 440 L 670 325 Z" />
+      <svg viewBox="0 0 880 360" role="presentation" focusable="false">
+        <path class="chev-outline c1" d="M 24 62 H 388 Q 416 62 438 80 L 606 180 L 438 280 Q 416 298 388 298 H 24 L 188 180 Z" />
+        <path class="chev-outline c2" d="M 124 62 H 488 Q 516 62 538 80 L 706 180 L 538 280 Q 516 298 488 298 H 124 L 288 180 Z" />
+        <path class="chev-outline c3" d="M 224 62 H 588 Q 616 62 638 80 L 806 180 L 638 280 Q 616 298 588 298 H 224 L 388 180 Z" />
+        <path class="chev-outline c4" d="M 324 62 H 688 Q 716 62 738 80 L 906 180 L 738 280 Q 716 298 688 298 H 324 L 488 180 Z" />
       </svg>
     </div>
 
